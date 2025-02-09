@@ -6,6 +6,8 @@
 
         public int ProductGroupId { get; set; }
 
+        public bool IsRequired { get; set; }
+
         public MenuPosition MenuPosition { get; set; } = null!;
 
         public ProductGroup ProductGroup { get; set; } = null!;
