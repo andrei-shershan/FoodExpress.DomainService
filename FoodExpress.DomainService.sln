@@ -9,9 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodExpress.DomainService.A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19FE99C7-8BC1-4CB6-9BF4-ACAD257E7814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodExpress.DomainService.UnitTests", "tests\FoodExpress.DomainService.UnitTests\FoodExpress.DomainService.UnitTests.csproj", "{AE88C69A-AA03-4AC8-9CFC-E8A09EFBFCF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodExpress.DomainService.UnitTests", "tests\FoodExpress.DomainService.UnitTests\FoodExpress.DomainService.UnitTests.csproj", "{AE88C69A-AA03-4AC8-9CFC-E8A09EFBFCF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E619EBB9-4C37-4C6F-82FC-5CD58B8B6DEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A4A0E02-C847-48DD-B617-F6068D36F4FE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

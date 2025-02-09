@@ -1,4 +1,5 @@
 
+using FoodExpress.DomainService.Api.Services;
 using FoodExpress.DomainService.Domain.Extensions;
 
 namespace FoodExpress.DomainService.Api
@@ -21,6 +22,10 @@ namespace FoodExpress.DomainService.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            // TODO: move to separate init
+            builder.Services.AddTransient<IOrderService, OrderService>();
+            builder.Services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
             // TODO: move to settings
             var connectionString = builder.Configuration.GetConnectionString("LocalDb");
