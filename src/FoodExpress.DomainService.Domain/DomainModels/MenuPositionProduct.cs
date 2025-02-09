@@ -5,6 +5,8 @@
         public int RecipeId { get; set; }
         
         public int ProductId { get; set; }
+        
+        public bool IsDefault { get; set; }
 
         public Recipe Recipe { get; set; } = null!;
 
